@@ -1,0 +1,3 @@
+2019-06-13 17:00:26,118,9300,django.server,ERROR,basehttp.py:124,"GET /static/admin/css/dashboard.css HTTP/1.1" 500 59
+2019-06-13 17:02:29,660,9300,django.server,ERROR,basehttp.py:124,"GET /static/admin/css/login.css HTTP/1.1" 500 59
+2019-06-13 19:16:46,030,11004,django.server,ERROR,basehttp.py:124,"GET /static/admin/css/widgets.css HTTP/1.1" 500 59
