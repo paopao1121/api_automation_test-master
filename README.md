@@ -1,17 +1,12 @@
-# 接口测试平台从开始到放弃
-# python3.6.3 Django 2.0.2框架
-体验地址：http://120.79.232.23  请体验用户不要删除已有数据<br>
-账号：admin 密码：admin369874125
+# 接口测试平台
+# python3.7.3 Django 2.0.2框架
 # 版本更新：
-## V2.1.2<br>
+## V1.0.0<br>
 1.增加导出测试用例功能<br>
-## V2.1.1<br>
-1.新增swaggerUI界面，访问地址127.0.0.1:8000/docs/<br>
-## V2.1<br>
-1.优化前端代码，适配屏幕分辨率，未做浏览器兼容性，目前只在chrome上浏览正常<br>
-2.新增mock功能，api管理模块可启动，关闭mock，启动后，通过访问http://127.0.0.1:8000/mock/+真实url，可返回mock信息
-## V2.0<br>
-重构接口代码，引入反序列化方式，修改接口为基于类的方式，因修改大量后台接口代码，前端未更新，所以目前前端调用接口会出现大量问题，目前平台暂不可用，后续更新
+2.新增swaggerUI界面，访问地址127.0.0.1:8000/docs/<br>
+3.优化前端代码，适配屏幕分辨率，未做浏览器兼容性，目前只在chrome上浏览正常<br>
+4.新增mock功能，api管理模块可启动，关闭mock，启动后，通过访问http://127.0.0.1:8000/mock/+真实url，可返回mock信息
+5.重构接口代码，引入反序列化方式，修改接口为基于类的方式，因修改大量后台接口代码，前端未更新，所以目前前端调用接口会出现大量问题，目前平台暂不可用，后续更新
 
 ## 系统声明：
 ---
@@ -65,8 +60,6 @@ npm run build
 python manage.py runserver 0.0.0.0:8000
 ```
 ### 12.现在就可以访问 http://127.0.0.1:8000/login 进行登录， http://127.0.0.1:8000/admin 为后台管理平台<br>
-## 微信打赏：<br>
-![微信打赏](https://github.com/githublitao/api_automation_test/blob/master/img/%E6%94%B6%E6%AC%BE%E7%A0%81.png)<br>
 <br>
 ## 系统图解：<br>
 ![系统图](https://github.com/githublitao/api_automation_test/blob/master/img/%E7%B3%BB%E7%BB%9F%E5%9B%BE%E8%A7%A3.png)<br>
